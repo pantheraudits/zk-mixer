@@ -5,3 +5,5 @@
 - **Fixed amount**: Deposits and withdrawals are a fixed **0.001 ETH** to improve the anonymity set.
 
 See the [main README](../README.md) for repo structure and quick start.
+
+All learnings done from: https://updraft.cyfrin.io/courses/noir-programming-and-zk-circuits 
