@@ -2,5 +2,13 @@
 src = "src"
 out = "out"
 libs = ["lib"]
+# WARNING: FFI allows tests to run arbitrary commands (e.g. npx/tsx). Only enable in trusted projects.
+ffi = true
+remappings = [
+    "poseidon-solidity/=lib/poseidon-solidity/contracts/",
+    "@openzeppelin/=lib/openzeppelin-contracts/contracts/"
+]
+# Exclude poseidon-solidity Test.sol (imports hardhat/console.sol)
+ignore = ["lib/poseidon-solidity/contracts/Test.sol"]
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options

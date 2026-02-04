@@ -12,3 +12,6 @@ docs/
 
 # Dotenv file
 .env
+
+# js-scripts (FFI)
+js-scripts/node_modules/

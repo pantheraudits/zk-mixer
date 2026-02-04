@@ -29,6 +29,8 @@ zk-mixer/
 
 ## Quick start
 
+**Full step-by-step (circuit compile, verifier, contracts, tests):** see **[BUILD_AND_RUN.md](./BUILD_AND_RUN.md)**.
+
 ### Contracts (Foundry)
 
 ```bash
@@ -38,12 +40,12 @@ forge build
 forge test
 ```
 
-### Circuits (when added)
+### Circuits
 
 ```bash
 cd circuits
 nargo compile
-# Generate proofs off-chain; verifier contract from bb or nargo
+# Then generate verifier: see circuits/README.md or BUILD_AND_RUN.md
 ```
 
 ## Security

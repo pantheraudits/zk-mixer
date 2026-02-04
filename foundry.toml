@@ -1,0 +1,7 @@
+# Run from repo root: forge build / forge test use the contracts subproject
+[profile.default]
+src = "contracts/src"
+out = "contracts/out"
+libs = ["contracts/lib"]
+remappings = ["poseidon-solidity/=contracts/lib/poseidon-solidity/contracts/"]
+ignore = ["contracts/lib/poseidon-solidity/contracts/Test.sol"]

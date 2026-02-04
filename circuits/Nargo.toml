@@ -1,0 +1,8 @@
+[package]
+name = "mixer_circuit"
+type = "bin"
+authors = [""]
+
+[dependencies]
+# Local poseidon2-only crate (upstream noir-lang/poseidon v0.1.0 fails: array index must be u32, not Field)
+poseidon = { path = "lib/poseidon" }
