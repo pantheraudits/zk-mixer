@@ -4,7 +4,7 @@ A privacy-focused Ethereum mixer that breaks the on-chain link between deposits 
 
 ## Features
 
-- **Deposit**: Users deposit a fixed amount of ETH (0.001 ETH) with a commitment (Poseidon hash of nullifier + secret).
+- **Deposit**: Users deposit a fixed amount of ETH (1 ETH) with a commitment (Poseidon hash of nullifier + secret).
 - **Withdraw**: Users withdraw by submitting a ZK-SNARK proof of knowledge of a valid deposit, without revealing which one.
 - **Fixed denomination**: Single amount improves the anonymity set.
 
